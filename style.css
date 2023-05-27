@@ -19,6 +19,9 @@ html body{
     
     
   }
+  .fnt{
+    font-family: "Bebas Neue";
+  }
  
  .img{
     /* background-image: url('./assest/mae-mu-m9pzwmxm2rk-unsplash.jpg'); */
@@ -81,8 +84,8 @@ html body{
   .card{
     height: fit-content;
     max-width: 18rem;
-    /* padding: 1rem 1rem; */
-    /* background-color: #ffffff3d; */
+    padding: 1rem 1rem;
+    background-color: #8f8a8a;
     color: white;
     border-radius: 0.3rem;
 }
