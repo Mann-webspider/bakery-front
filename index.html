@@ -48,8 +48,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <main id="main">
+<body class="relative">
+  <div class="loader fixed z-[20] h-screen bg-[#00000050] w-full flex justify-center items-center hidden">
+    <iframe src="https://embed.lottiefiles.com/animation/97952"></iframe>
+  </div>
+  <main id="main ">
     <!-- <video src="./assest/pexels-elijah-o'donnell-2832316-1920x1080-60fps.mp4" autoplay loop></video  > -->
     <img src="./assest/mae-mu-m9pzwmxm2rk-unsplash.jpg" class="h-screen object-cover bg-center w-screen z-1 absolute"
       alt="">
@@ -70,7 +73,7 @@
       </div>
     </nav>
     <section class="flex items-start lg:items-center py-8 px-8 justify-center h-full">
-      <div class="fadder"></div>
+      <!-- <div class="fadder"></div> -->
 
       <h1 class="z-10 lg:text-8xl lg:font-medium text-6xl text-center   heading1 ">
         Welcome to The Bakery
@@ -209,7 +212,9 @@
   </section>
 
   <script src="script.js">
+    
   </script>
+  
 </body>
 
 </html>
