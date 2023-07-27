@@ -39,25 +39,5 @@ async function sendItem(id){
 }
 
 
-// Function to convert client's timezone date and time to local timezone
-function convertToLocalTime(clientDateTime, clientTimezone) {
-    // Parse the client's date and time using the client's timezone
-    const clientMoment = moment.tz(clientDateTime, clientTimezone);
-    
-    // Convert the client's date and time to the local timezone
-    const localMoment = clientMoment.clone().tz('Asia/Kolkatta'); // Replace 'Your_Local_Timezone' with your desired local timezone
-    
-    // Format the local date and time
-    const localDateTime = localMoment.format('YYYY-MM-DD HH:mm:ss');
-    
-    return localDateTime;
-  }
-  
-  // Example usage
-  const clientDateTime = '2023-04-10 14:00:00'; // Replace with the client's date and time in their timezone
-  const clientTimezone = 'Asia/Karachi'; // Replace with the client's timezone
-  
-  const localDateTime = convertToLocalTime(clientDateTime, clientTimezone);
-  console.log('Local Date and Time:', localDateTime);
-  console.log("hello");
+
   
