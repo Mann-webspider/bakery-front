@@ -7,7 +7,7 @@ async function sendItem(id){
     loader.classList.remove("hidden")
     const quan = document.querySelector(`#${id}`).value
     console.log("i clicked");
-    const res =await fetch("https://bakery-topaz-rho.vercel.app/create-checkout-session",{
+    const res =await fetch("https://bakery-git-main-mann-webspider.vercel.app/create-checkout-session",{
         method:'POST',
         headers:{
             'Content-Type':'application/json'
